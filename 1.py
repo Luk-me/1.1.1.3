@@ -11,8 +11,8 @@ def con():
         login()
 
 def login():
-    user="91079"
-    pswd="Az123456!"
+    user="91079" #用户名
+    pswd="Az123456!" #密码
     url = "http://1.1.1.3/ac_portal/login.php"
     data={
     "opr": "pwdLogin",
